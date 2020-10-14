@@ -4,7 +4,7 @@ const int SIZE = 10;
 
 int main()
 {
-	Matrix a(SIZE, -100, 100, 0, 0, false, true);
+	Matrix a(SIZE, -100, 100, false);
 	a.print();
 
 	a.multiply(SIZE - 1, 1 / a.get(SIZE - 1, 0));
